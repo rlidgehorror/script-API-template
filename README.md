@@ -1,0 +1,1 @@
+A repository of script API templates for different minecraft bedrock versions.

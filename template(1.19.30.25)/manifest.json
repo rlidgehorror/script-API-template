@@ -1,0 +1,59 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "gametest template",
+    "description": "gametest template(此模板基于现在的preview1.19.30.25，不保证向下与向上兼容)\n设置当前手上物品lore的命令为:lore 测试 测试1 测试2",
+    "uuid": "5748b0b7-1d13-4bee-bdbf-d33dd1cde9f5",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      19,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "language": "javascript",
+      "type": "script",
+      "description": "gametest module",
+      "uuid": "92cd3fe1-e764-425a-aa40-a7e4d7760922",
+      "entry": "scripts/main.js",//入口
+      "version": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "type": "data",
+      "description": "data module",
+      "uuid": "43d06b76-7570-462e-b971-e8771517aec2",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      //mojang-minecraft module
+      "uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+      "version": "1.0.0-beta"
+    },
+    {
+      //mojang-gametest module
+      "uuid": "6f4b6893-1bb6-42fd-b458-7fa3d0c89616",
+      "version": "1.0.0-beta"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "燃料偏二甲肼"
+    ]
+  }
+}

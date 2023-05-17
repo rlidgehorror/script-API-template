@@ -1,0 +1,17 @@
+{
+  "name": "gametest_template_for_simulated_player",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "scripts/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "燃料偏二甲肼",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@minecraft/server": "^1.2.0-beta.1.19.80-preview.21",
+    "@minecraft/server-gametest": "^1.0.0-beta.1.19.80-preview.21",
+    "@types/mojang-gametest": "^0.1.6",
+    "@types/mojang-minecraft": "^0.1.7"
+  }
+}
